@@ -1,0 +1,93 @@
+<!DOCTYPE html>    
+<html>
+  <head>
+    <title>James Gornet</title>
+    <link rel="stylesheet"
+	  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+	  integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+	  crossorigin="anonymous">
+    <link rel="stylesheet"
+	  href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+	    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+	    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+	    crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row top-buffer">
+	<div class="col-md-4">
+	  <img src="0.jpeg" width="200" height="200" alt="James Gornet"
+	       style="border-radius: 50%;">
+	  <h3 align="left" class="name">James Gornet</h3>
+	  <h6 align="left" class="name">Machine Learning and
+	  Neuroscience Researcher, Cold Spring Harbor Laboratory</h6>
+	  <ul class="nav flex-column">
+	    <li><a class="nav-link" href="index.html">Home</a></li>
+	    <li><a class="nav-link" href="research.html">Research</a></li>
+	    <li><a class="nav-link" href="publications.html">Publications</a></li>
+	    <li><a class="nav-link" href="#">About Me</a></li>
+	  </ul>
+	</div>
+	<div class="col-md-8">
+	  <h2>Neuronal anatomy reconstruction and analysis</h2>
+	  <p>
+	    Reconstructing multiple molecularly defined neurons from
+	    individual brains and across multiple brain regions can
+	    reveal organizational principles of the nervous
+	    system. Understanding how neurons of the similar and
+	    different types co-locate themselves requires
+	    reconstruction of neuronal somatodendritic morphologies
+	    across the same brain. While electron microscopy provides
+	    dense neuronal reconstructions to answer these questions,
+	    its small field-of-view has limited its use for studying
+	    brain-wide organization. Oblique light-sheet
+	    microscopy—which can image thousands of individual neurons
+	    at a submicron resolution—enables a fast, versatile
+	    approach to this problem. Moreover, by registering
+	    reconstructed neurons to a common coordinate framework
+	    such as the Allen Mouse Brain Atlas, it is possible to
+	    study neuronal structure and organization across many
+	    brain regions and neuronal cell classes.
+	  </p>
+	  <p>
+	    However, scaling neuronal reconstructions to such large
+	    datasets is not trivial. The gold standard of manual
+	    reconstruction is a tedious and labor-intensive process
+	    with a single neuronal reconstruction taking a few
+	    hours. The gold standard of manual reconstruction is a
+	    tedious and labor-intensive process with a single neuronal
+	    reconstruction taking a few hours. Many automated methods
+	    have appeared for neuronal reconstruction from
+	    fluorescence microscopy images; however, these algorithms
+	    can have slow reconstruction speeds, make topological
+	    errors despite high voxel-wise accuracy, and be vulnerable
+	    to rare but important image artifacts. To tackle this
+	    issue, I implemented a convolutional neural network to
+	    reconstruct neurons in light microscopy images. To prevent
+	    topological errors in the reconstructions, I developed a
+	    connectivity-based regularization technique as well as
+	    simulated the image artifacts using data
+	    augmentations. For efficient, scalable processing, I
+	    designed a freely available neuronal reconstruction
+	    framework—called NeuroTorch.
+	  </p>
+	  <h6>Selected Publications</h6>
+	  <p><b>James Gornet</b>, Kannan Umadevi Venkataraju, Arun
+	    Narasimhan, Nicholas Turner, H. Sebastian Seung, Pavel
+	    Osten, Uygar Sümbül. “Reconstructing neuronal anatomy from
+	    whole-brain images,” in <em>2019 IEEE 16th International Symposium for
+	    Biomedical Imaging</em>, 2019. [<a href="#">ArXiV</a>]
+</p>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
